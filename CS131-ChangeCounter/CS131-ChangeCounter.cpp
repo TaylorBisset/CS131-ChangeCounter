@@ -19,9 +19,13 @@ int main()
     int pennies = 1;
 
     cout << "How many 'quarters' do you have? ";
+    cin >> quarters;
     cout << "How many 'dimes' do you have? ";
+    cin >> dimes;
     cout << "How many 'nickels' do you have? ";
+    cin >> nickels;
     cout << "How many 'pennies' do you have? ";
+    cin >> pennies;
 
     double quarterCost = quarters * 0.25;
     double dimesCost = dimes * 0.10;
