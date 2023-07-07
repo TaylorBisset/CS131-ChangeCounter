@@ -13,10 +13,10 @@ for all coins shown in typical dollar and cents format ($5.34).
 
 int main()
 {
-    int quarters;
-    int dimes;
-    int nickels;
-    int pennies;
+    int quarters = 1;
+    int dimes = 1;
+    int nickels = 1;
+    int pennies = 1;
 
     cout << "How many 'quarters' do you have? ";
     cout << "How many 'dimes' do you have? ";
