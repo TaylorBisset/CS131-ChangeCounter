@@ -31,6 +31,10 @@ int main()
     double dimesCost = dimes * 0.10;
     double nickelsCost = nickels * 0.05;
     double penniesCost = pennies * 0.01;
+    cout << endl;
+
+    cout << "You have " << quarters << " quarters, " << dimes << " dimes, ";
+    cout << nickels << " nickels, and " << pennies << " pennies.\n";
 
     return 0;
 }
